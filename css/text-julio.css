@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0 !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ESCRITORIO */
+@media (min-width: 1200px) {
+  body {color: red;}
+}
+
+/* ESCRITORIO PEQUEÑO O TABLET*/
+@media (min-width: 768px) and (max-width:979px){
+  body {color: green;}
+}
+
+/* TABLET P SMARTPHONE */
+@media (max-width: 767px) {
+  body {color: blue;}
+}
+
+/* SMARTPHONE */
+@media (max-width: 480px) {
+  body {color: yellow;}
+}
+
+.text-big{
+  font-size: 300px;
+  line-height: 320px;
+}
+
+@media screen and (max-width: 450px){
+  body {
+    padding-top: 80px;
+  }
+
+  .contenedor-menu {
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+}
+
+p {  
+  color: #fff;
+}
+
+h1 {  
+  color: #fff;
+}
+h3 {  
+  color: #fff;
+}
+
+
+
+body{
+  background: #0b2027 !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-menu{
+  display: none;
+  padding: 50px;
+  background: #0d2c44;
+  color: #fff;  
+}
+
+.btn-menu .icono{
+  float: right;
+}
+
+.contenedor-menu{
+  width: 50%;
+  min-width: 300%;
+  margin: 50px;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 18px;  
+}
+
+.contenedor-menu .menu {
+  width: 100%;
+}
+
+.contenedor-menu ul {
+  list-style: none;
+}
+
+.contenedor-menu .menu li a {
+  color: #494949;
+  display: block;
+  padding: 15px 20px;
+  background: #e9e9e9;
+}
+
+.contenedor-menu .menu li a:hover {
+  background: #1a95d5;
+  color: #fff;
+}
+
+.contenedor-menu .menu .icono {
+  font-size: 12px;
+  line-height: 18px;  
+}
+
+.contenedor-menu .menu .icono.izquierda {
+  float: left;
+  margin-right: 10px;
+}
+.contenedor-menu .menu .icono.derecha {
+  float: right;
+  margin-left: 10px;
+}
+
+.contenedor-menu .menu ul {
+  display: none;
+}
+
+.contenedor-menu .menu ul li a {
+  background: #424242;
+  color: #e9e9e9;
+}
+
+.contenedor-menu .menu .activado > a {
+  background: #1a95d5;
+  color: #fff;
+}
+
+.btn-menu{
+  display: block;
+}
